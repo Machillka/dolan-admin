@@ -1,0 +1,154 @@
+dark-mode:
+  light: 白天
+  dark: 黑暗
+common:
+  save: 保存
+  save-failed: 保存失败!
+  save-success: 保存成功!
+  confirm-delete: 确定删除?
+  add-success: 添加成功!
+  add-failed: 添加失败!
+  update-success: 更新成功!
+  update-failed: 更新失败!
+  add: 添加
+  update: 更新
+  clear: 清除
+  delete: 删除
+  edit: 编辑
+  yes: 是
+  no: 否
+pages:
+  dashboard:
+    label: 控制台
+  login:
+    label: 登录
+  signup:
+    label: 注册
+  posts:
+    label: 文章管理
+    failed: 加载文章列表失败!
+    search: 搜索
+    reset: 重置
+    batch-operation: 批量操作
+    convert-to-published: 转为发布
+    convert-to-draft: 转为草稿
+    filter-published: 已发布
+    filter-draft: 草稿
+    new-post: 新建文章
+    edit-post: 编辑文章
+    post-title: 标题
+    post-status: 状态
+    post-tags: 标签
+    post-created: 创建日期
+    no-title: (无标题)
+    no-tags: (无标签)
+    title: 标题
+    status:
+      label: 状态
+      published: 已发布
+      draft: 草稿
+    tags: 标签
+    category: 分类
+    created: 创建于
+    updated: 更新于
+    slug: 文章唯一标识符
+    excerpt: 摘要
+    sticky: 置顶
+    input-post-title: 输入文章标题
+    not-exist: 文章不存在
+    # TODO: Pass parameters
+    auto-saved: "自动保存: "
+    edit-post-config: 编辑文章配置
+    metas: 自定义文章元数据
+    metas-bad-json-format: 元数据JSON格式错误!
+  pages:
+    label: 页面管理
+    new-page: 新建页面
+    edit-page: 编辑页面
+    no-title: (无标题)
+    title: 标题
+    failed: 加载页面列表失败!
+    batch-operation: 批量操作
+    slug: 页面唯一标识符
+    hidden: 隐藏
+    edit-page-config: 编辑页面配置
+    input-page-title: 输入页面标题
+    not-exist: 页面不存在
+    metas: 自定义页面元数据
+    metas-bad-json-format: 元数据JSON格式错误!
+  tags:
+    label: 标签管理
+    new-tag: 新建标签
+    edit-tag: 编辑标签
+    tag-list: 标签列表
+    name: 名称
+    slug: 标签唯一标识符
+    color: 颜色
+    invalid-color-format: 颜色格式不合法!
+    description: 标签描述
+  categories:
+    label: 分类管理
+    new-category: 新建分类
+    edit-category: 编辑分类
+    category-list: 分类列表
+    name: 名称
+    slug: 分类唯一标识符
+    description: 分类描述
+  config:
+    label: 配置管理
+    site:
+      label: 站点配置
+      name: 名称
+      description: 简介
+      keywords: 关键词
+      url: 站点地址
+      posts-baseurl: 站点地图文章 BaseURL
+      categories-baseurl: 站点地图分类 BaseURL
+      tags-baseurl: 站点地图标签 BaseURL
+      pages-baseurl: 站点地图页面 BaseURL
+    posts:
+      label: 文章配置
+      max-page-size: 每页最大文章数
+      default-content: 默认内容
+    tags:
+      label: 标签配置
+      max-page-size: 每页最大标签数
+    categories:
+      label: 分类配置
+      max-page-size: 每页最大分类数
+    pages:
+      label: 页面配置
+      max-page-size: 每页最大页面数
+      default-content: 默认内容
+    authors:
+      label: 作者配置
+    functions:
+      label: 功能配置
+      sitemap:
+    custom:
+      label: 自定义配置
+      bad-json-format: 错误的JSON格式!
+sidebar:
+  hide: 收起侧边栏
+login:
+  login: 登录
+  signup: 注册
+  logout: 退出账号
+  username: 用户名
+  password: 密码
+  username-missing: 请输入用户名
+  password-missing: 请输入密码
+  extras: 更多选项
+  displayName: 显示的名称
+  login-success: 登录成功!
+  login-failed: 登录失败!
+  signup-success: 注册成功! 请登录。
+  signup-failed: 注册失败!
+  logout-success: 退出成功!
+not-found:
+  not-found: 未找到页面
+  back: 返回上一页
+components:
+  markdown-editor:
+    editor: 编辑区域
+    switch-editor: 切换编辑器

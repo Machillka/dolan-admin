@@ -1,0 +1,153 @@
+dark-mode:
+  light: Light
+  dark: Dark
+common:
+  save: Save
+  save-failed: Save failed!
+  save-success: Saved successfully!
+  confirm-delete: Comfirm deleting?
+  delete: Delete
+  add-success: Added successfully!
+  add-failed: Add failed!
+  update-success: Updated successfully!
+  update-failed: Update failed!
+  add: Add
+  update: Update
+  clear: Clear
+  edit: Edit
+  yes: Yes
+  no: No
+pages:
+  dashboard:
+    label: Dashboard
+  login:
+    label: Login
+  signup:
+    label: Sign up
+  posts:
+    label: Posts
+    failed: Failed to load posts!
+    search: Search
+    reset: Reset
+    batch-operation: Batch Operation
+    convert-to-published: Convert to published
+    convert-to-draft: Convert to draft
+    filter-published: Published
+    filter-draft: Draft
+    new-post: Write new post
+    edit-post: Edit post
+    post-title: Title
+    post-status: Status
+    post-tags: Tags
+    post-created: Created At
+    no-title: (No Title)
+    no-tags: (No Tags)
+    title: Title
+    status:
+      label: Status
+      published: Published
+      draft: Draft
+    tags: Tags
+    category: Category
+    created: Created At
+    updated: Updated At
+    slug: Slug
+    excerpt: Excerpt
+    sticky: Sticky
+    input-post-title: Input post title
+    not-exist: Post does not exist
+    auto-saved: "Auto saved at: "
+    edit-post-config: Edit post config
+    metas: Custom metadata of the post
+    metas-bad-json-format: Bad Metas JSON format!
+  pages:
+    label: Pages
+    new-page: Create new page
+    edit-page: Edit page
+    no-title: (No Title)
+    title: Title
+    failed: Failed to load pages!
+    batch-operation: Batch Operation
+    slug: Slug
+    hidden: Hidden
+    edit-page-config: Edit page config
+    input-page-title: Input page title
+    not-exist: Page does not exist
+    metas: Custom metadata of the page
+    metas-bad-json-format: Bad Metas JSON format!
+  tags:
+    label: Tags
+    new-tag: New Tag
+    edit-tag: Edit Tag
+    tag-list: Tag List
+    name: Name
+    slug: Slug
+    color: Color
+    invalid-color-format: Invalid color format!
+    description: Description
+  categories:
+    label: Categories
+    new-category: New Category
+    edit-category: Edit Category
+    category-list: Category List
+    name: Name
+    slug: Slug
+    description: Description
+  config:
+    label: Config
+    site:
+      label: Site
+      name: Name
+      description: Description
+      keywords: Keywords
+      url: URL
+      posts-baseurl: Sitemap Posts BaseURL
+      categories-baseurl: Sitemap Categories BaseURL
+      tags-baseurl: Sitemap Tags BaseURL
+      pages-baseurl: Sitemap Pages BaseURL
+    posts:
+      label: Posts
+      max-page-size: Max post size per page
+      default-content: Default content
+    tags:
+      label: Tags
+      max-page-size: Max tag size per page
+    categories:
+      label: Categories
+      max-page-size: Max category size per page
+    pages:
+      label: Pages
+      max-page-size: Max page size per page
+      default-content: Default content
+    authors:
+      label: Authors
+    functions:
+      label: Functions
+      sitemap:
+    custom:
+      label: Custom
+      bad-json-format: Bad JSON format!
+sidebar:
+  hide: Hide Sidebar
+login:
+  login: Login
+  signup: Sign Up
+  logout: Logout
+  username: Username
+  password: Password
+  username-missing: Please input username
+  password-missing: Please input password
+  extras: Extra Settings
+  displayName: Display Name
+  login-success: Login successfully!
+  login-failed: Login failed!
+  signup-success: Signup successfully! Please Login.
+  signup-failed: Signup failed!
+  logout-success: Logout successfully!
+not-found:
+  not-found: Not found
+  back: Back
+components:
+  markdown-editor:
+    editor: Editor
+    switch-editor: Switch Editor

@@ -1,0 +1,40 @@
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300 !important;
+}
+
+.milkdown ul {
+  list-style: unset;
+}
+
+.milkdown ol {
+  list-style: auto;
+}
+
+.milkdown .editor h1 {
+  height: unset !important;
+}
+
+@media only screen and (min-width: 72rem) {
+  .milkdown .editor {
+    margin: 0 auto;
+    max-width: 57.375rem;
+    padding: 3.125rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .semi-modal-small {
+    width: calc(100vw - 1.5rem * 2) !important;
+    padding: 10px;
+  }
+}
